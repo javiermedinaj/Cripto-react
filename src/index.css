@@ -1,13 +1,19 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(circle at 85% 73%, rgba(131, 133, 72, 1) 1%, rgba(0, 0, 0, 0.97) 25%, rgba(0, 0, 0, 1) 43%);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(circle at 85% 73%, rgba(131, 133, 72, 1) 1%, rgba(0, 0, 0, 0.97) 25%, rgba(0, 0, 0, 1) 43%);
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(circle at 85% 73%, rgba(131, 133, 72, 1) 1%, rgba(0, 0, 0, 0.97) 25%, rgba(0, 0, 0, 1) 43%);
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(circle at 85% 73%, rgba(131, 133, 72, 1) 1%, rgba(0, 0, 0, 0.97) 25%, rgba(0, 0, 0, 1) 43%);
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(circle at 85% 73%, rgba(131, 133, 72, 1) 1%, rgba(0, 0, 0, 0.97) 25%, rgba(0, 0, 0, 1) 43%);
+
+  color:white;
+
 }
